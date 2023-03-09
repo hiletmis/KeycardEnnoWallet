@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "EnnoUtil",
+        "repositoryURL": "https://github.com/hiletmis/EnnoUtil.git",
+        "state": {
+          "branch": null,
+          "revision": "ba1adba56cfad9f3e249609dc4114fd6c507b926",
+          "version": "1.0.5"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
