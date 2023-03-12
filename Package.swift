@@ -15,13 +15,12 @@ let package = Package(
             targets: ["Keycard"]),
     ],
     dependencies: [    
-        .package (url: "https://github.com/hiletmis/EnnoUtil.git", .exact(.init(stringLiteral: "1.0.5")))
+        .package (url: "https://github.com/hiletmis/EnnoUtil.git", .exact(.init(stringLiteral: "1.0.8")))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
-        .target( name: "Keycard", dependencies: ["EnnoUtil", "Crypto"]),
-        .target( name: "Crypto", dependencies: []),
+        .target( name: "Keycard", dependencies: ["EnnoUtil"]),
         .testTarget(
              name: "KeycardTests",
              dependencies: ["Keycard"]),
